@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{6AF9BD1B-878F-4892-A5F3-D99B1266BE58}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="NewsReader.iOS/ViewController.cs">
+    <Files>
+      <File FileName="NewsReader.iOS/RSSTableSource.cs" Line="28" Column="1" />
+      <File FileName="App.Shared/src/RssFeedViewModel.cs" Line="8" Column="21" />
+      <File FileName="App.Model/src/MyAppContext.cs" Line="11" Column="6" />
+      <File FileName="App.Shared/MyClass.cs" Line="2" Column="1" />
+      <File FileName="NewsReader.iOS/ViewController.cs" Line="1" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="NewsReader" expanded="True">
+            <Node name="AndroidApp1" expanded="True" />
+            <Node name="NewsReader.iOS" expanded="True">
+              <Node name="ViewController.cs" selected="True" />
+            </Node>
+            <Node name="NewsReader.Model" expanded="True">
+              <Node name="src" expanded="True" />
+            </Node>
+            <Node name="NewsReader.Shared" expanded="True">
+              <Node name="src" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NewsReader.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0A37009E-4C38-44E5-8BCC-0D429763E5D5">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.NewsReader.iOS>
+  <MonoDevelop.Ide.ItemProperties.AndroidApp1 PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MultiItemStartupConfigurations />
+</Properties>

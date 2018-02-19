@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Qoden.Binding" Version="1.5.2" />
+    <PackageReference Include="Qoden.Validation" Version="1.0.5" />
+  </ItemGroup>
+</Project>

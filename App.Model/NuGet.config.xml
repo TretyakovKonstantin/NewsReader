@@ -1,0 +1,7 @@
+﻿<configuration>
+    <packageSources>
+        <add key="nuget.org" value="https://api.nuget.org/v3/index.json" />
+        <add key="Qoden" value="https://nexus.studiomobile.ru/repository/nuget-hosted" />
+        <add key="Qoden-Binding" value="https://nexus.studiomobile.ru/repository/nuget-hosted/Qoden.Binding/1.5.2"/>
+    </packageSources>
+</configuration>

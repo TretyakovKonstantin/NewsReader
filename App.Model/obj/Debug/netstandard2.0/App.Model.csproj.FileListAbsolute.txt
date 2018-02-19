@@ -1,0 +1,13 @@
+/Users/studiomobile/Projects/Test222222/App.Model/obj/Debug/netstandard2.0/App.Model.csprojResolveAssemblyReference.cache
+/Users/studiomobile/Projects/Test222222/App.Model/obj/Debug/netstandard2.0/App.Model.csproj.CoreCompileInputs.cache
+/Users/studiomobile/Projects/Test222222/App.Model/obj/Debug/netstandard2.0/App.Model.AssemblyInfoInputs.cache
+/Users/studiomobile/Projects/Test222222/App.Model/obj/Debug/netstandard2.0/App.Model.AssemblyInfo.cs
+/Users/user/RiderProjects/RSSReader/App.Model/bin/Debug/netstandard2.0/App.Model.deps.json
+/Users/user/RiderProjects/RSSReader/App.Model/bin/Debug/netstandard2.0/App.Model.dll
+/Users/user/RiderProjects/RSSReader/App.Model/bin/Debug/netstandard2.0/App.Model.pdb
+/Users/user/RiderProjects/RSSReader/App.Model/obj/Debug/netstandard2.0/App.Model.csprojResolveAssemblyReference.cache
+/Users/user/RiderProjects/RSSReader/App.Model/obj/Debug/netstandard2.0/App.Model.csproj.CoreCompileInputs.cache
+/Users/user/RiderProjects/RSSReader/App.Model/obj/Debug/netstandard2.0/App.Model.AssemblyInfoInputs.cache
+/Users/user/RiderProjects/RSSReader/App.Model/obj/Debug/netstandard2.0/App.Model.AssemblyInfo.cs
+/Users/user/RiderProjects/RSSReader/App.Model/obj/Debug/netstandard2.0/App.Model.dll
+/Users/user/RiderProjects/RSSReader/App.Model/obj/Debug/netstandard2.0/App.Model.pdb

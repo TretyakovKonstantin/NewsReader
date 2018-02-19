@@ -1,0 +1,4 @@
+AndroidApp1.MainActivity, AndroidApp1;md5c178831cd46fc53bebc42cf953f78ced.MainActivity
+AndroidApp1.MainActivity, AndroidApp1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5c178831cd46fc53bebc42cf953f78ced.MainActivity
+AndroidApp1.MainActivity;md5c178831cd46fc53bebc42cf953f78ced.MainActivity
+androidapp1.MainActivity;md5c178831cd46fc53bebc42cf953f78ced.MainActivity
