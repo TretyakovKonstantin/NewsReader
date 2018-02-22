@@ -1759,8 +1759,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Qoden.Binding": "1.5.2",
-          "Qoden.Validation": "1.0.5"
+          "Qoden.Binding": "1.5.2"
         },
         "compile": {
           "bin/placeholder/NewsReader.Model.dll": {}
@@ -6040,7 +6039,6 @@
         "netcoreapp2.0"
       ],
       "sources": {
-        "/Users/user/qoden/NewsReader": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nexus.studiomobile.ru/repository/nuget-hosted": {}
       },

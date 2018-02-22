@@ -12,22 +12,25 @@ namespace App.Shared
     {
         private List<RssFeedItem> _feed = new List<RssFeedItem>();
 
-        private string _url;
+        private string _searchStr;
 
-        public string Url
+        public string SearchStr
         {
             set
             {
-                _url = value;
-                Load(Url);
+                _searchStr = value;
+                Load(SearchStr);
             }
-            get => _url;
+            get => _searchStr;
         }
+
+        public IProperty<string> SearchStrProperty;
 
         public event PropertyChangedEventHandler PropertyChanged;
 
         public RssFeedViewModel()
         {
+            SearchStrProperty  = new Property<string>(this, "SearchStr");
         }
 
         public async Task Load(string feedUrl)

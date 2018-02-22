@@ -89,8 +89,20 @@
     <Reference Include="Qoden.Binding, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\packages\Qoden.Binding.1.5.2\lib\netstandard1.4\Qoden.Binding.dll</HintPath>
     </Reference>
+    <Reference Include="Qoden.Reflection, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Qoden.Reflection.1.0.0\lib\netstandard1.4\Qoden.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="Qoden.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Qoden.UI.1.0.0\lib\netstandard1.4\Qoden.UI.dll</HintPath>
+    </Reference>
     <Reference Include="Qoden.UI.iOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\packages\Qoden.UI.iOS.1.5.2\lib\xamarinios10\Qoden.UI.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Qoden.Util, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Qoden.Util.1.1.0\lib\netstandard1.4\Qoden.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Qoden.Validation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>..\packages\Qoden.Validation.1.0.5\lib\netstandard1.4\Qoden.Validation.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />

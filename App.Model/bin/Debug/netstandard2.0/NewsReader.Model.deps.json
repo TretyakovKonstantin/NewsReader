@@ -10,8 +10,7 @@
       "NewsReader.Model/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.1",
-          "Qoden.Binding": "1.5.2",
-          "Qoden.Validation": "1.0.5"
+          "Qoden.Binding": "1.5.2"
         },
         "runtime": {
           "NewsReader.Model.dll": {}

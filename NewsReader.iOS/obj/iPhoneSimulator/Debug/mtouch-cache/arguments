@@ -27,7 +27,15 @@
 	-r \
 	/Users/user/qoden/NewsReader/packages/Qoden.Binding.1.5.2/lib/netstandard1.4/Qoden.Binding.dll \
 	-r \
+	/Users/user/qoden/NewsReader/packages/Qoden.Reflection.1.0.0/lib/netstandard1.4/Qoden.Reflection.dll \
+	-r \
+	/Users/user/qoden/NewsReader/packages/Qoden.UI.1.0.0/lib/netstandard1.4/Qoden.UI.dll \
+	-r \
 	/Users/user/qoden/NewsReader/packages/Qoden.UI.iOS.1.5.2/lib/xamarinios10/Qoden.UI.iOS.dll \
+	-r \
+	/Users/user/qoden/NewsReader/packages/Qoden.Util.1.1.0/lib/netstandard1.4/Qoden.Util.dll \
+	-r \
+	/Users/user/qoden/NewsReader/packages/Qoden.Validation.1.0.5/lib/netstandard1.4/Qoden.Validation.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -315,7 +323,15 @@
 	-r \
 	/Users/user/qoden/NewsReader/packages/Qoden.Binding.1.5.2/lib/netstandard1.4/Qoden.Binding.dll \
 	-r \
+	/Users/user/qoden/NewsReader/packages/Qoden.Reflection.1.0.0/lib/netstandard1.4/Qoden.Reflection.dll \
+	-r \
+	/Users/user/qoden/NewsReader/packages/Qoden.UI.1.0.0/lib/netstandard1.4/Qoden.UI.dll \
+	-r \
 	/Users/user/qoden/NewsReader/packages/Qoden.UI.iOS.1.5.2/lib/xamarinios10/Qoden.UI.iOS.dll \
+	-r \
+	/Users/user/qoden/NewsReader/packages/Qoden.Util.1.1.0/lib/netstandard1.4/Qoden.Util.dll \
+	-r \
+	/Users/user/qoden/NewsReader/packages/Qoden.Validation.1.0.5/lib/netstandard1.4/Qoden.Validation.dll \
 	--target-framework \
 	'Xamarin.iOS,v1.0' \
 	/Users/user/qoden/NewsReader/NewsReader.iOS/bin/iPhoneSimulator/Debug/NewsReader.iOS.exe \

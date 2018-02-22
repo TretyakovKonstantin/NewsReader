@@ -2,7 +2,7 @@
 using App.Model;
 using Foundation;
 using UIKit;
-using Qoden.UI;
+
 
 namespace NewsReader.iOS
 {

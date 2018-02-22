@@ -14,8 +14,9 @@ namespace NewsReader.iOS
     {
         private RssFeedViewModel _viewModel = new RssFeedViewModel();
         private UITableView _rssTable;
-        private UITextField _feedUrlTextField;
-//        private BindingList _bindingList;
+
+        private TextField _feedSearchTextField;
+        private BindingList _bindingList = new BindingList();
 
         protected MainViewController(IntPtr handle) : base(handle)
         {
@@ -28,23 +29,33 @@ namespace NewsReader.iOS
 
             var bounds = View.Bounds;
             _rssTable = new UITableView(new CGRect(0, 100, bounds.Width, bounds.Height - 100));
-            _feedUrlTextField = new UITextField(new CGRect(bounds.Width * 0.1, 40, bounds.Width * 0.9, 30));
-            _feedUrlTextField.BackgroundColor = UIColor.Magenta;
-            
+            _feedSearchTextField = new TextField(new UITextField(new CGRect(bounds.Width * 0.1, 40, bounds.Width * 0.9, 30)));
+            _feedSearchTextField.SetTextColor(new RGB(100, 100, 100));
+
             RssFeedItem[] items =
                 {new RssFeedItem {Author = "Evgeny", Title = "What is it that you talking about so much, Evgeny"}};
             var tableSource = new RssTableSource(items);
             _rssTable.Source = tableSource;
-            
-            
-            
-            Add(_feedUrlTextField);
+
+
+            Add(_feedSearchTextField);
             Add(_rssTable);
+
+            try
+            {
+                _bindingList.Property(_feedSearchTextField.TextProperty())
+                    .To(_viewModel.SearchStrProperty)
+                    .UpdateTarget((t, s) => _feedSearchTextField.SetText((string) t.Target.Value));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
 
             await _viewModel.Load("https://habrahabr.ru/rss/hubs/all");
             tableSource.TableItems = _viewModel.Feed.ToArray();
             _rssTable.ReloadData();
-            
+
 //            var urlFeedBinding = new PropertyBinding
 //            {
 //                Source = p,
@@ -56,9 +67,6 @@ namespace NewsReader.iOS
 //                .To(_viewModel.Property);
 
 
-
-            
-            
 //            _bindingList.Bind();
         }
 

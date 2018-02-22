@@ -1437,8 +1437,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.1",
-      "Qoden.Binding >= 1.5.2",
-      "Qoden.Validation >= 1.0.5"
+      "Qoden.Binding >= 1.5.2"
     ]
   },
   "packageFolders": {
@@ -1465,7 +1464,6 @@
         "netstandard2.0"
       ],
       "sources": {
-        "/Users/user/qoden/NewsReader": {},
         "https://api.nuget.org/v3/index.json": {},
         "https://nexus.studiomobile.ru/repository/nuget-hosted": {}
       },
@@ -1492,10 +1490,6 @@
           "Qoden.Binding": {
             "target": "Package",
             "version": "[1.5.2, )"
-          },
-          "Qoden.Validation": {
-            "target": "Package",
-            "version": "[1.0.5, )"
           }
         },
         "imports": [

@@ -35,10 +35,6 @@
         "Qoden.Binding": {
           "target": "Package",
           "version": "[1.5.2, )"
-        },
-        "Qoden.Validation": {
-          "target": "Package",
-          "version": "[1.0.5, )"
         }
       },
       "imports": [
