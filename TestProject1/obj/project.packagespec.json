@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/user/qoden/NewsReader/TestProject1/TestProject1.csproj",
+    "projectUniqueName": "/Users/user/qoden/test/NewsReader/TestProject1/TestProject1.csproj",
     "projectName": "TestProject1",
-    "projectPath": "/Users/user/qoden/NewsReader/TestProject1/TestProject1.csproj",
-    "outputPath": "/Users/user/qoden/NewsReader/TestProject1/obj/",
+    "projectPath": "/Users/user/qoden/test/NewsReader/TestProject1/TestProject1.csproj",
+    "outputPath": "/Users/user/qoden/test/NewsReader/TestProject1/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp2.0": {
         "projectReferences": {
-          "/Users/user/qoden/NewsReader/App.Model/NewsReader.Model.csproj": {
-            "projectPath": "/Users/user/qoden/NewsReader/App.Model/NewsReader.Model.csproj"
+          "/Users/user/qoden/test/NewsReader/App.Model/NewsReader.Model.csproj": {
+            "projectPath": "/Users/user/qoden/test/NewsReader/App.Model/NewsReader.Model.csproj"
           }
         }
       }

@@ -6022,17 +6022,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/qoden/NewsReader/TestProject1/TestProject1.csproj",
+      "projectUniqueName": "/Users/user/qoden/test/NewsReader/TestProject1/TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "/Users/user/qoden/NewsReader/TestProject1/TestProject1.csproj",
+      "projectPath": "/Users/user/qoden/test/NewsReader/TestProject1/TestProject1.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/qoden/NewsReader/TestProject1/obj/",
+      "outputPath": "/Users/user/qoden/test/NewsReader/TestProject1/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/user/qoden/NewsReader/NuGet.Config",
+        "/Users/user/qoden/test/NewsReader/NuGet.Config",
         "/Users/user/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
@@ -6045,8 +6045,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "/Users/user/qoden/NewsReader/App.Model/NewsReader.Model.csproj": {
-              "projectPath": "/Users/user/qoden/NewsReader/App.Model/NewsReader.Model.csproj"
+            "/Users/user/qoden/test/NewsReader/App.Model/NewsReader.Model.csproj": {
+              "projectPath": "/Users/user/qoden/test/NewsReader/App.Model/NewsReader.Model.csproj"
             }
           }
         }

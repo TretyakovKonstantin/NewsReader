@@ -1,5 +1,5 @@
 using System;
-using App.Model;
+using NewsReader.Model;
 using Xunit;
 
 namespace TestProject1

@@ -4,7 +4,7 @@
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
-    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_NewsReader.-1377029515.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_NewsReader.-2102692198.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="AndroidApp1" t="IncludeRecursive">
         <e p="AndroidApp1.csproj" t="IncludeRecursive" />
@@ -53,6 +53,7 @@
         </e>
       </e>
       <e p="NewsReader.iOS" t="IncludeRecursive">
+        <e p="Annotations.cs" t="Include" />
         <e p="AppDelegate.cs" t="Include" />
         <e p="Assets.xcassets" t="Include">
           <e p="AppIcon.appiconset" t="Include">

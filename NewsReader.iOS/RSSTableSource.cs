@@ -1,6 +1,6 @@
 ﻿using System;
-using App.Model;
 using Foundation;
+using NewsReader.Model;
 using UIKit;
 
 
@@ -8,14 +8,14 @@ namespace NewsReader.iOS
 {
     public class RssTableSource : UITableViewSource
     {
-        public RssFeedItem[] TableItems;
+        public RssFeedItem[] TableItems = {};
         
         private const string CellIdentifier = "TableCell";
-
-        public RssTableSource(RssFeedItem[] items)
-        {
-            TableItems = items;
-        }
+//
+//        public RssTableSource(RssFeedItem[] items)
+//        {
+//            TableItems = items;
+//        }
         
 
         public override nint RowsInSection(UITableView tableview, nint section)
@@ -29,15 +29,13 @@ namespace NewsReader.iOS
             var item = TableItems[indexPath.Row];
 
             if (cell == null)
-            { cell = new UITableViewCell(UITableViewCellStyle.Value2, CellIdentifier); }
+            { cell = new UITableViewCell(UITableViewCellStyle.Value1, CellIdentifier); }
 
 
             cell.TextLabel.Text = item.Title;
-            cell.DetailTextLabel.Text = item.Author;
+            cell.DetailTextLabel.Text = item.Creator;
 
             return cell;
         }
-
-      
     }
 }

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Diagnostics.Contracts;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
-using App.Model;
-using Qoden.Binding;
+using NewsReader.iOS.Annotations;
+using NewsReader.Model;
 
 namespace App.Shared
 {
@@ -12,25 +12,26 @@ namespace App.Shared
     {
         private List<RssFeedItem> _feed = new List<RssFeedItem>();
 
-        private string _searchStr;
+        private string _searchStr = "";
 
+        public delegate void FeedChanged(List<RssFeedItem> feeds);
+        public event FeedChanged FeedFiltered;
+        
         public string SearchStr
         {
             set
             {
                 _searchStr = value;
-                Load(SearchStr);
+                Refresh();
             }
             get => _searchStr;
         }
+        
+//        public event PropertyChangedEventHandler PropertyChanged;
 
-        public IProperty<string> SearchStrProperty;
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        public RssFeedViewModel()
+        private void Refresh()
         {
-            SearchStrProperty  = new Property<string>(this, "SearchStr");
+            FeedFiltered?.Invoke(RssFeedService.Filter(SearchStr, _feed));
         }
 
         public async Task Load(string feedUrl)
@@ -52,23 +53,24 @@ namespace App.Shared
 
         public IReadOnlyList<RssFeedItem> Feed => _feed;
 
-//        public readonly IProperty FeedProperty = new Property<string>(Feed, "feed");
-//        public IProperty<string> UrlProperty = new Property<string>(_url, );
-        
-        string feedLoadingError;
-
+        private string _feedLoadingError;
         public string FeedLoadingError
         {
-            get
-            {
-                return feedLoadingError;
-            }
+            get => _feedLoadingError;
 
             private set
             {
-                feedLoadingError = value;
+                _feedLoadingError = value;
                 PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(FeedLoadingError)));
             }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        [NotifyPropertyChangedInvocator]
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

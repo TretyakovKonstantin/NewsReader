@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/user/qoden/NewsReader/App.Model/NewsReader.Model.csproj",
+    "projectUniqueName": "/Users/user/qoden/test/NewsReader/App.Model/NewsReader.Model.csproj",
     "projectName": "NewsReader.Model",
-    "projectPath": "/Users/user/qoden/NewsReader/App.Model/NewsReader.Model.csproj",
-    "outputPath": "/Users/user/qoden/NewsReader/App.Model/obj/",
+    "projectPath": "/Users/user/qoden/test/NewsReader/App.Model/NewsReader.Model.csproj",
+    "outputPath": "/Users/user/qoden/test/NewsReader/App.Model/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

@@ -7,3 +7,12 @@
 /Users/user/qoden/NewsReader/App.Model/obj/Debug/netstandard2.0/NewsReader.Model.AssemblyInfo.cs
 /Users/user/qoden/NewsReader/App.Model/obj/Debug/netstandard2.0/NewsReader.Model.dll
 /Users/user/qoden/NewsReader/App.Model/obj/Debug/netstandard2.0/NewsReader.Model.pdb
+/Users/user/qoden/test/NewsReader/App.Model/bin/Debug/netstandard2.0/NewsReader.Model.deps.json
+/Users/user/qoden/test/NewsReader/App.Model/bin/Debug/netstandard2.0/NewsReader.Model.dll
+/Users/user/qoden/test/NewsReader/App.Model/bin/Debug/netstandard2.0/NewsReader.Model.pdb
+/Users/user/qoden/test/NewsReader/App.Model/obj/Debug/netstandard2.0/NewsReader.Model.csprojResolveAssemblyReference.cache
+/Users/user/qoden/test/NewsReader/App.Model/obj/Debug/netstandard2.0/NewsReader.Model.csproj.CoreCompileInputs.cache
+/Users/user/qoden/test/NewsReader/App.Model/obj/Debug/netstandard2.0/NewsReader.Model.AssemblyInfoInputs.cache
+/Users/user/qoden/test/NewsReader/App.Model/obj/Debug/netstandard2.0/NewsReader.Model.AssemblyInfo.cs
+/Users/user/qoden/test/NewsReader/App.Model/obj/Debug/netstandard2.0/NewsReader.Model.dll
+/Users/user/qoden/test/NewsReader/App.Model/obj/Debug/netstandard2.0/NewsReader.Model.pdb
