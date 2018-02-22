@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace App.Model
+﻿namespace NewsReader.Model
 {
     public class Class1
     {

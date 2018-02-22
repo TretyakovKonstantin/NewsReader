@@ -8,7 +8,7 @@ using Foundation;
 namespace NewsReader.iOS
 {
     [Register("ViewController")]
-    partial class ViewController
+    partial class MainViewController
     {
         void ReleaseDesignerOutlets()
         {

@@ -1,19 +1,22 @@
 ﻿using System;
+using App.Model;
 using Foundation;
 using UIKit;
+using Qoden.UI;
 
 namespace NewsReader.iOS
 {
-    public class RSSTableSource : UITableViewSource
+    public class RssTableSource : UITableViewSource
     {
+        public RssFeedItem[] TableItems;
+        
+        private const string CellIdentifier = "TableCell";
 
-        string[] TableItems;
-        string CellIdentifier = "TableCell";
-
-        public RSSTableSource(string[] items)
+        public RssTableSource(RssFeedItem[] items)
         {
             TableItems = items;
         }
+        
 
         public override nint RowsInSection(UITableView tableview, nint section)
         {
@@ -22,14 +25,15 @@ namespace NewsReader.iOS
 
         public override UITableViewCell GetCell(UITableView tableView, NSIndexPath indexPath)
         {
-            UITableViewCell cell = tableView.DequeueReusableCell(CellIdentifier);
-            string item = TableItems[indexPath.Row];
+            var cell = tableView.DequeueReusableCell(CellIdentifier);
+            var item = TableItems[indexPath.Row];
 
-            //---- if there are no cells to reuse, create a new one
             if (cell == null)
-            { cell = new UITableViewCell(UITableViewCellStyle.Default, CellIdentifier); }
+            { cell = new UITableViewCell(UITableViewCellStyle.Value2, CellIdentifier); }
 
-            cell.TextLabel.Text = item;
+
+            cell.TextLabel.Text = item.Title;
+            cell.DetailTextLabel.Text = item.Author;
 
             return cell;
         }

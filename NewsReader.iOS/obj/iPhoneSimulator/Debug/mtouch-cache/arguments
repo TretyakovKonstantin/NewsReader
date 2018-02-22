@@ -25,6 +25,10 @@
 	-r \
 	/Users/user/qoden/NewsReader/App.Model/bin/Debug/netstandard2.0/NewsReader.Model.dll \
 	-r \
+	/Users/user/qoden/NewsReader/packages/Qoden.Binding.1.5.2/lib/netstandard1.4/Qoden.Binding.dll \
+	-r \
+	/Users/user/qoden/NewsReader/packages/Qoden.UI.iOS.1.5.2/lib/xamarinios10/Qoden.UI.iOS.dll \
+	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
@@ -308,6 +312,10 @@
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
 	/Users/user/qoden/NewsReader/App.Model/bin/Debug/netstandard2.0/NewsReader.Model.dll \
+	-r \
+	/Users/user/qoden/NewsReader/packages/Qoden.Binding.1.5.2/lib/netstandard1.4/Qoden.Binding.dll \
+	-r \
+	/Users/user/qoden/NewsReader/packages/Qoden.UI.iOS.1.5.2/lib/xamarinios10/Qoden.UI.iOS.dll \
 	--target-framework \
 	'Xamarin.iOS,v1.0' \
 	/Users/user/qoden/NewsReader/NewsReader.iOS/bin/iPhoneSimulator/Debug/NewsReader.iOS.exe \

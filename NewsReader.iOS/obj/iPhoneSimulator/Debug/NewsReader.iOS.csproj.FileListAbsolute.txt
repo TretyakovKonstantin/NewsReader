@@ -19,3 +19,5 @@
 /Users/user/qoden/NewsReader/NewsReader.iOS/obj/iPhoneSimulator/Debug/NewsReader.iOS.csproj.CoreCompileInputs.cache
 /Users/user/qoden/NewsReader/NewsReader.iOS/obj/iPhoneSimulator/Debug/NewsReader.iOS.exe
 /Users/user/qoden/NewsReader/NewsReader.iOS/obj/iPhoneSimulator/Debug/NewsReader.iOS.pdb
+/Users/user/qoden/NewsReader/NewsReader.iOS/bin/iPhoneSimulator/Debug/Qoden.UI.iOS.dll
+/Users/user/qoden/NewsReader/NewsReader.iOS/bin/iPhoneSimulator/Debug/Qoden.Binding.dll

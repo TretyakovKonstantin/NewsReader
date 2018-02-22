@@ -16,7 +16,7 @@ namespace App.Model
 
     public class RssFeedService 
     {
-        public async Task<List<RssFeedItem>> Load(string feedUrl)
+        public static async Task<List<RssFeedItem>> Load(string feedUrl)
         {
             using (var client = new HttpClient())
             {
